@@ -1,2 +1,2 @@
 # Labs
-https://dariadrozd.github.io/Labs/
+https://valentinapsh.github.io/labs/
