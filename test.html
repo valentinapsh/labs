@@ -65,12 +65,15 @@
             <input type="checkbox" class="form-check-input" id="checkbox10" name="optcheckbox" value="option2">
             <label class="form-check-label" for="checkbox2">Пошук клієнта для продажу власного авто</label>
         </div>
-       <button type="button" class="btn btn-primary mt-3" onClick="window.location.reload()">
- Надicлати
-  </button>
+      <button onclick="reloadFunction()" class="btn btn-primary mt-3">Надіслати</button>
+
     </form>
 
 </div>
-
+   <script>
+    function reloadFunction() {
+       window.location.reload();
+    }
+</script>
 </body>
 </html>
