@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bmw SYSTEM "./mall.dtd">
+<!DOCTYPE mall SYSTEM "./mall.dtd">
 <?xml-stylesheet type="text/css" href="./mall.css"?>
 
 <mall>
     <type>
-        <name>ТРЦ"</name>
+        <name>ТРЦ</name>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 Паркінг
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 Інтерактивна навігація
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 Кімнати матері та дитини
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 Електрозаправки та станції підзарядки гаджетів
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 Сервіси для людей з інвалідністю
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                 wi-fi free
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                Івент-зона
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                Ресторани та фудкорти
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                Одяг, взуття, ювелірні вироби
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                Техніка та електроніка
             </description>
         </mall_body>
         <mall_body>
-            <name>Торговий-розважальний центр "Best choice"</name>
+            <name>Торговo-розважальний центр "Best choice"</name>
             <description>
                Кінотеатр та розважальний центр
             </description>
-        </bmw_body>
+        </mall_body>
     </type>
-</bmw>
+</mall>
