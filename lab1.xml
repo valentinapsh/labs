@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bmw SYSTEM "./bmw.dtd">
+<?xml-stylesheet type="text/css" href="./bmw.css"?>
+
+<bmw>
+    <type>
+        <name>Торговий центр</name>
+        <bmw_body>
+            <name>Автосалон BMW Motors</name>
+            <description>
+                Тест-драйв BMW
+            </description>
+        </bmw_body>
+        <bmw_body>
+            <name>Автосалон BMW Motors</name>
+            <description>
+                Сервісне обсуговування BMW
+            </description>
+        </bmw_body>
+        <bmw_body>
+            <name>Автосалон BMW Motors</name>
+            <description>
+                Тест-драйв BMW
+            </description>
+        </bmw_body>
+        <bmw_body>
+            <name>Автосалон BMW Motors</name>
+            <description>
+                Кредитування і фінансовий лізинг на BMW
+            </description>
+        </bmw_body>
+        <bmw_body>
+            <name>Автосалон BMW Motors</name>
+            <description>
+                Cпеціальні пропозиції на автомобілі BMW
+            </description>
+        </bmw_body>
+    </type>
+</bmw>
