@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bmw SYSTEM "./bmw.dtd">
+<!DOCTYPE bmw SYSTEM "./mall.dtd">
 <?xml-stylesheet type="text/css" href="./bmw.css"?>
 
 <bmw>
