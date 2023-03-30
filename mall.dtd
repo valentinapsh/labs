@@ -1,6 +1,6 @@
-<!ELEMENT bmw (type*)>
-<!ELEMENT type (name, bmw_body*)>
-<!ELEMENT bmw_body (name, description)>
+<!ELEMENT mall (type*)>
+<!ELEMENT type (name, mall_body*)>
+<!ELEMENT mall_body (name, description)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
