@@ -3,48 +3,44 @@
 }
 
 body {
-    background-color:#4B0150;
+    background-color:#DBE9FA;
 }
 
-hotel_data name, hotel_data surname, hotel_data patronimic,
-hotel_data quantity, hotel_data requirements, hotel_data stay {
+profile_data interests, profile_data music, profile_data films,
+profile_data literature, profile_data avatar {
  text-align: center;
- color:#CF9FFF;
+ color:#4B0082;
  font-size: 120%;
  
 }
 
-hotel_data name::before {
-    color:#CF9FFF;
-    content:"Ваше ім'я: ";
+profile_data interests::before {
+    color:#4B0082;
+    content:"Ваші загальні інтереси: ";
 }
-hotel_data surname::before {
-    color:#CF9FFF;
-    content:"Ваше прізвище: ";
+profile_data music::before {
+    color:#4B0082;
+    content:"Музика: ";
 }
-hotel_data patronimic::before {
-    color:#CF9FFF;
-    content:"Ваше ім'я по-батькові: ";
+profile_data films::before {
+    color:#4B0082;
+    content:"Фільми: ";
 }
-hotel_data quantity::before {
-    color:#CF9FFF;
-    content:"Кількість необхідних номерів: ";
+profile_data literature::before {
+    color:#4B0082;
+    content:"Література користувача: ";
 }
-hotel_data requirements::before {
-    color:#CF9FFF;
-    content:"Особливі вимоги: ";
-}
-hotel_data stay::before {
-    color:#CF9FFF;
-    content:"Тривалість перебування в готелі: ";
+profile_data avatar::before {
+    color:#4B0082;
+    content:"Аватар користувача: ";
 }
 
-hotel_data {
-    border-color: #CF9FFF;
+profile_data {
+    border-color: #4B0082;
     margin-top: 400px;
     margin-left: 550px;
     margin-right: 550px;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
     padding: 50px;
     font-family: 'Verdana';
