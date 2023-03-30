@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body SYSTEM "./lab2.dtd">
+<?xml-stylesheet type="text/css" href="./lab2.css"?>
+
+<body>
+    <hotel_data>
+        <name>Моє ім'я</name>
+        <surname>Моє прізвище</surname>
+        <patronimic>Моє ім'я по-батькові</patronimic>
+        <quantity>Кількість необхідних номерів</quantity>
+        <requirements>Особливі вимоги</requirements>
+        <stay>Тривалість перебування в готелі</stay>
+    </hotel_data>
+</body>
