@@ -1,0 +1,6 @@
+<!ELEMENT bmw (type*)>
+<!ELEMENT type (name, bmw_body*)>
+<!ELEMENT bmw_body (name, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
