@@ -1,0 +1,53 @@
+* {
+    display: block;
+}
+
+body {
+    background-color:#4B0150;
+}
+
+hotel_data name, hotel_data surname, hotel_data patronimic,
+hotel_data quantity, hotel_data requirements, hotel_data stay {
+ text-align: center;
+ color:#CF9FFF;
+ font-size: 120%;
+ 
+}
+
+hotel_data name::before {
+    color:#CF9FFF;
+    content:"Ваше ім'я: ";
+}
+hotel_data surname::before {
+    color:#CF9FFF;
+    content:"Ваше прізвище: ";
+}
+hotel_data patronimic::before {
+    color:#CF9FFF;
+    content:"Ваше ім'я по-батькові: ";
+}
+hotel_data quantity::before {
+    color:#CF9FFF;
+    content:"Кількість необхідних номерів: ";
+}
+hotel_data requirements::before {
+    color:#CF9FFF;
+    content:"Особливі вимоги: ";
+}
+hotel_data stay::before {
+    color:#CF9FFF;
+    content:"Тривалість перебування в готелі: ";
+}
+
+hotel_data {
+    border-color: #CF9FFF;
+    margin-top: 400px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: 'Verdana';
+    overflow: hidden;
+
+}
