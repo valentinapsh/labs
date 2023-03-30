@@ -1,38 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bmw SYSTEM "./mall.dtd">
-<?xml-stylesheet type="text/css" href="./bmw.css"?>
+<?xml-stylesheet type="text/css" href="./mall.css"?>
 
-<bmw>
+<mall>
     <type>
-        <name>Торговий центр</name>
-        <bmw_body>
-            <name>Автосалон BMW Motors</name>
+        <name>ТРЦ"</name>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
             <description>
-                Тест-драйв BMW
+                Паркінг
             </description>
-        </bmw_body>
-        <bmw_body>
-            <name>Автосалон BMW Motors</name>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
             <description>
-                Сервісне обсуговування BMW
+                Інтерактивна навігація
             </description>
-        </bmw_body>
-        <bmw_body>
-            <name>Автосалон BMW Motors</name>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
             <description>
-                Тест-драйв BMW
+                Кімнати матері та дитини
             </description>
-        </bmw_body>
-        <bmw_body>
-            <name>Автосалон BMW Motors</name>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
             <description>
-                Кредитування і фінансовий лізинг на BMW
+                Електрозаправки та станції підзарядки гаджетів
             </description>
-        </bmw_body>
-        <bmw_body>
-            <name>Автосалон BMW Motors</name>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
             <description>
-                Cпеціальні пропозиції на автомобілі BMW
+                Сервіси для людей з інвалідністю
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+                wi-fi free
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+               Івент-зона
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+               Ресторани та фудкорти
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+               Одяг, взуття, ювелірні вироби
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+               Техніка та електроніка
+            </description>
+        </mall_body>
+        <mall_body>
+            <name>Торговий-розважальний центр "Best choice"</name>
+            <description>
+               Кінотеатр та розважальний центр
             </description>
         </bmw_body>
     </type>
