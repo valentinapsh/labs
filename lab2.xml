@@ -3,12 +3,11 @@
 <?xml-stylesheet type="text/css" href="./lab2.css"?>
 
 <body>
-    <hotel_data>
-        <name>Моє ім'я</name>
-        <surname>Моє прізвище</surname>
-        <patronimic>Моє ім'я по-батькові</patronimic>
-        <quantity>Кількість необхідних номерів</quantity>
-        <requirements>Особливі вимоги</requirements>
-        <stay>Тривалість перебування в готелі</stay>
-    </hotel_data>
+    <profile_data>
+        <interests>Загальні інтереси</interests>
+        <music>Музика</music>
+        <films>Фільми</films>
+        <literature>Література користувача</literature>
+        <avatar>Власний аватар</avatar>
+    </prifile_data>
 </body>
