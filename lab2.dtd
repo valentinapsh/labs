@@ -1,9 +1,8 @@
-<!ELEMENT body (hotel_data*)>
-<!ELEMENT hotel_data (name, surname, patronimic, quantity, requirements, stay)>
+<!ELEMENT body (profile_data*)>
+<!ELEMENT profile_data (interests, music, films, literature, avatar)>
 
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT surname (#PCDATA)>
-<!ELEMENT patronimic (#PCDATA)>
-<!ELEMENT quantity (#PCDATA)>
-<!ELEMENT requirements (#PCDATA)>
-<!ELEMENT stay (#PCDATA)>
+<!ELEMENT interests (#PCDATA)>
+<!ELEMENT music (#PCDATA)>
+<!ELEMENT films (#PCDATA)>
+<!ELEMENT literature (#PCDATA)>
+<!ELEMENT avatar (#PCDATA)>
