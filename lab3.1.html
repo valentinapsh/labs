@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тест</title>
+</head>
+<body>
+<h1>Розрахунки</h1>
+<button onclick="runCalculation()">Обчислення</button>
+<button onclick="runTest()">Тест</button>
+<script>
+    function runCalculation() {
+// Запит на введення першого числа
+    let num1 = prompt("Введіть додатне ціле число №1:");
+
+// Перевірка на дотримання умови
+if (isNaN(num1) || num1 < 1 || num1 % 1 !== 0) {
+        alert("Ви ввели неправильне число!");
+        } else {
+        // Запит на введення другого числа
+        let num2 = prompt("Введіть додатне ціле число №2:");
+
+        // Перевірка на дотримання умови
+        if (isNaN(num2) || num2 < 1 || num2 % 1 !== 0) {
+        alert("Ви ввели неправильне число!");
+        } else {
+        let minNum = Math.min(num1, num2);
+        let maxNum = Math.max(num1, num2);
+        let product = 1;
+
+        // Знаходження добутку непарних чисел
+        for (let i = minNum; i <= maxNum; i++) {
+        if (i % 2 !== 0) {
+        product *= i;
+        }
+        }
+        // Виведення результату у вікно повідомлень
+        alert(`Добуток непарних чисел від ${minNum} до ${maxNum}: ${product}`);
+        }
+        }
+
+</script>
+<script>
+    function runTest() {
+        // 1. Запит на введення імені
+let name = prompt("Введіть своє ім'я:");
+
+// 2. Мiнi-тест з 5 питань
+let questions = [
+   {
+       text: "1.Чи можна використовувати знак рівності (=) для порівняння двох значень?",
+       answer: "Так"
+   },
+   {
+       text: "2. Чи можна додавати рядки до чисел?",
+       answer: "Ні"
+   },
+   {
+       text: "3. Чи можна використовувати знак рівності (=) для присвоєння значення змінній?",
+       answer: "Так"
+   },
+   {
+       text: "4. Чи можна ділити на нуль?",
+       answer: "Ні"
+   },
+   {
+       text: "5. Чи можна ділити рядки на числа?",
+       answer: "Ні"
+   }
+];
+
+let correctAnswers = 0;
+for (let i = 0; i < questions.length; i++) {
+   let answer = prompt(questions[i].text + "\nВідповідь (Так/Ні/Cancel):");
+   if (answer.toLowerCase() === questions[i].answer.toLowerCase()) {
+       correctAnswers++;
+   }
+}
+
+// 3. Рахуємо отриману оцінку
+let score = Math.round((correctAnswers / questions.length) * 100);
+
+// 4. Виводимо результат у форматі: "Студент ІМ’Я отримав за тест ОЦІНКА"
+alert(`Студент ${name} отримав ${score}% за тест.`);
+    }
+</script>
+</body>
+</html>
+
+
