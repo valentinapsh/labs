@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мигання тексту</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <p id="text">Мигання тексту</p>
+
+  <script>
+    var text = document.getElementById("text"); // отримуємо елемент з рядком стану
+    var visible = true; // змінна, що позначає, чи видимий текст
+
+    setInterval(function() { // встановлюємо інтервал
+      if (visible) { // якщо текст видимий
+        text.style.visibility = "hidden"; // ховаємо текст
+        visible = false; // позначаємо, що текст прихований
+      } else { // якщо текст прихований
+        text.style.visibility = "visible"; // показуємо текст
+        visible = true; // позначаємо, що текст видимий
+      }
+    }, 1000); // інтервал - 1 секунда (1000 мілісекунд)
+  </script>
+</body>
+</html>
