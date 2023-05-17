@@ -63,7 +63,7 @@ nextBtn.addEventListener(
             wrapper.classList.add("hide");
             scoreContainer.classList.remove("hide");
             userScore.innerHTML =
-            "За тест студент з номером з/к " + name + " отримав " +  Math.round((scoreCount / questionCount) * 100) + "% правильних відповідей."
+            "Студент" + name + " отримав за тест" +  Math.round((scoreCount / questionCount) * 100) + "% правильних відповідей."
         } else {
             countOfQuestion.innerHTML =
                 "Питання " + (questionCount + 1) + " із " + quizArray.length;
@@ -134,7 +134,7 @@ function checker(userOption) {
 }
 
 function inital() {
-    name = prompt("Введіть номер залікової книжки:")
+    name = prompt("Введіть ваше ім'я:")
     quizContainer.innerHTML = "";
     questionCount = 0;
     scoreCount = 0;
