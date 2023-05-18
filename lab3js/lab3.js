@@ -123,19 +123,19 @@ for (var x = -5; x <= 5; x++) {
 
     document.write("<tr><td>" + x + "</td>");
 
-    if (y1 > 5) {
+    if (y1 > 0) {
         document.write("<td style='color: blue;'>" + y1 + "</td>");
     } else {
         document.write("<td>" + y1 + "</td>");
     }
 
-    if (y2 > 5) {
+    if (y2 > 0) {
         document.write("<td style='color: blue;'>" + y2 + "</td>");
     } else {
         document.write("<td>" + y2 + "</td>");
     }
 
-    if (y3 > 5) {
+    if (y3 > 0) {
         document.write("<td style='color: blue;'>" + y3 + "</td>");
     } else {
         document.write("<td>" + y3 + "</td>");
