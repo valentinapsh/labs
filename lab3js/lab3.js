@@ -117,9 +117,9 @@ function mathFunctions() {
     document.write("<tr><th>x</th><th>y = x^2 - 36</th><th>y = x^2 + 3x - 20</th><th>y = x - y + 6</th></tr>");
 
 for (var x = -5; x <= 5; x++) {
-    var y1 = x*x - 36;
-    var y2 = x*x + 3*x - 20;
-    var y3 = x - y1 + 6;
+    var y1 = x*x - 25;
+    var y2 = x*x + 3*x - 12;
+    var y3 = x + y1 + 6;
 
     document.write("<tr><td>" + x + "</td>");
 
