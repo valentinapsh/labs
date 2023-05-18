@@ -6,3 +6,4 @@
 <!ELEMENT films (#PCDATA)>
 <!ELEMENT literature (#PCDATA)>
 <!ELEMENT avatar (#PCDATA)>
+
