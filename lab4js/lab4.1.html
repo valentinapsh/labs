@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Рух по траєкторії</title>
+    <meta charset="utf-8" />
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      // Отримуємо контекст малювання
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
 
+      // Задаємо діапазон значень
+      const xMin = -10;
+      const xMax = 10;
+      const yMin = -10;
+      const yMax = 10;
+
+      // Задаємо масштаб
+      const scaleX = canvas.width / (xMax - xMin);
+      const scaleY = canvas.height / (yMax - yMin);
+
+      // Функція, яка повертає значення y для заданого x
+      function f(x) {
+        return Math.tan(x) / Math.exp(x);
+      }
+
+      // Функція малює рядок на заданому x
+      function draw(x) {
+        const y = f(x);
+
+        // Очищуємо попередній кадр
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Малюємо рядок
+        ctx.beginPath();
+        ctx.moveTo(xMin * scaleX, y * scaleY);
+        ctx.lineTo(xMax * scaleX, y * scaleY);
+        ctx.stroke();
+
+        // Малюємо осі
+        ctx.beginPath();
+        ctx.moveTo(xMin * scaleX, 0);
+        ctx.lineTo(xMax * scaleX, 0);
+        ctx.moveTo(0, yMin * scaleY);
+        ctx.lineTo(0, yMax * scaleY);
+        ctx.stroke();
+      }
+
+      // Задаємо швидкість руху рядка
+      const speed = 0.05;
+
+      // Запускаємо анімацію
+      let x = xMin;
+      let intervalId = setInterval(() => {
+        // Рухаємо рядок
+        x += speed;
+        if (x > xMax) {
+          x = xMin;
+        }
+
+        // Малюємо рядок
+        draw(x);
+
+        // Міняємо кольори для мигання
+        if (ctx.strokeStyle === "black") {
+          ctx.strokeStyle = "red";
+          ctx.fillStyle = "red";
+        } else {
+          ctx.strokeStyle = "black";
+          ctx.fillStyle = "black";
+        }
+      }, 50);
+    </script>
+  </body>
+</html>
