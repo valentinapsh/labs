@@ -63,7 +63,7 @@ nextBtn.addEventListener(
             wrapper.classList.add("hide");
             scoreContainer.classList.remove("hide");
             userScore.innerHTML =
-            "Студент" + name + " отримав за тест" +  Math.round((scoreCount / questionCount) * 100) + "% правильних відповідей."
+            "Студент " + name + " отримав за тест " +  Math.round((scoreCount / questionCount) * 100) + "% правильних відповідей."
         } else {
             countOfQuestion.innerHTML =
                 "Питання " + (questionCount + 1) + " із " + quizArray.length;
